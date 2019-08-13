@@ -9,8 +9,8 @@ namespace Aula1AspNetMVC.Context
 {
     public class Aula1Context : DbContext 
         {
-        public Aula1Context()
-            : base()
+        public Aula1Context(DbContextOptions<Aula1Context> options)
+            : base(options)
         {
 
         }

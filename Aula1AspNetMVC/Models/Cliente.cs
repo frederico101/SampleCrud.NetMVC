@@ -11,7 +11,7 @@ namespace Aula1AspNetMVC.Models
         public string  Nome { get; set; }
         public string SobreNome { get; set; }
 
-        public DateTime DataCadastro { get; set; }
+      //  public DateTime DataCadastro { get; set; }
 
 
     }
